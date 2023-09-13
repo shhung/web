@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.row-l{
+    height: auto;
+    min-width: fit-content;
+    background-color: rgba(185, 158, 158, 0.486);
+    padding: 20px;
+    text-align: center;
+}
+
+.row-r{
+    height: auto;
+    width: auto;
+    max-width: 80%;
+    background-color: rgba(235, 97, 97, 0.541);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.info h3{
+    padding: 15px 0px 0px 0px;
+}
+
+.skill{
+    margin: 10px 0px 5px 0px;
+}
+
+.skill h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.skill ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.col ul{
+    padding-left: 20px;
+}
